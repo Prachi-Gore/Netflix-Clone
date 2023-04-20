@@ -1,11 +1,11 @@
 
-import './App.css';
+import './App.scss';
 
 const App=()=> {
   return (
     <div>
       prachi
-      prachi
+     
     </div>
   );
 }
