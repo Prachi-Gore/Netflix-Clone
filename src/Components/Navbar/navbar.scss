@@ -1,14 +1,38 @@
 .navbar{
+   
     color:white;
    font-size: 14px;
-   background-color: black;
+   height: 90px;
+  // overflow: hidden;//top:0px
+  position: fixed;
+  z-index:2;
+  padding-top: 10px;
+  
+  width: 100%;
+  background: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.3) 50%);
+   &.scrolled{
+    background-color: black;
+    height: 80px;
+   
+   }
+   @media only screen and (max-width: 800px ) {
+    .navbar{
+    height: 110px;
+    }
+}
+
    
 }
+
+
 .container{
-    
+   
+    padding: 5px 50px;
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px 5px;
+    
+    
+    
     span{
         margin: 5px 8px;
        
@@ -20,6 +44,7 @@
     img{
         
         height:25px;
+        margin-right: 20px;
         
     }
     
@@ -29,8 +54,51 @@
         align-items: center;
         
         
+     .dropdown{
         
         
+        .options{
+           display: none; 
+            margin-top: -10px;
+            cursor: pointer;
+            border-radius: 5px;
+            
+        }
+       &:hover{
+        cursor: pointer;
+        .options {
+                display: flex;
+                flex-direction: column;
+                height:fit-content;
+                position: absolute;
+                background-color: black;
+
+            @media only screen and (max-width: 800px) {
+                     
+                    flex-direction: row;
+                
+            }
+                
+              
+            }
+        
+        }
+     }    
+        
+        
+     }
+@media only screen and (max-width: 800px) {
+    flex-direction: column;
+    
+    .right{
+        
+        justify-content: center;
+        
+          
     }
+    
+    
+    
+}
     
 }

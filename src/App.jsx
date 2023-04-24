@@ -5,7 +5,7 @@ import Home from './Home/Home';
 
 const App=()=> {
   return (
-    <div>
+    <div className='appdiv'>
      
       <Home/>
      
