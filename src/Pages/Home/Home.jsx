@@ -1,8 +1,8 @@
 import React from 'react'
 import './home.scss'
-import Featured from '../Components/Featured/Featured'
-import Navbar from '../Components/Navbar/Navbar'
-import  List from '../Components/List/List'
+import Featured from '../../Components/Featured/Featured'
+import Navbar from '../../Components/Navbar/Navbar'
+import List from '../../Components/List/List'
 
 
 
