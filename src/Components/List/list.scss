@@ -1,6 +1,6 @@
 .list{
   width:100%;
-  margin-top: 10px;  
+ // margin-top: 10px;  
   background-color: black;
   
   .listTitle{
@@ -12,10 +12,34 @@
 
   }
   .wrapper{
+    position: relative;
     .container{
-        margin-left: 50px;
+        //margin-left: 50px;
         display: flex;
         width: max-content;
+        margin-top: 10px;
+        transform: translateX(0px);
+        transition: all ls ease;
+        
+    }
+    .sliderArrow{
+        width: 50px;
+        height: 100%;
+        background-color: rgb(22, 22, 22,0.5);
+       color: white;
+       cursor: pointer;
+       position: absolute;
+       z-index:50;
+       top: 0;
+       bottom: 0;
+       margin: auto;
+      &.left{
+        left: 0;
+      }
+      &.right{
+        right: 0;
+      }
+
     }
 
   }
