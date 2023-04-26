@@ -20,6 +20,15 @@
         margin-top: 10px;
         transform: translateX(0px);
         transition: all ls ease;
+        @media only screen and (max-width:830px){
+          background-color: black;
+          margin-top: -287px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr) ;
+          grid-auto-rows: 225px;
+          
+        }
+        
         
     }
     .sliderArrow{
@@ -39,7 +48,9 @@
       &.right{
         right: 0;
       }
-
+// @media  only screen and (max-width:830px){
+//   display: none;
+// }
     }
 
   }
