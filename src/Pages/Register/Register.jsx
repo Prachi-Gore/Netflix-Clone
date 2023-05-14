@@ -1,8 +1,10 @@
 import React, { useRef } from 'react'
 import './register.scss'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
+    const navigate=useNavigate();
     const[email,setEmail]=useState("")
 
     const emailRef=useRef()
@@ -20,7 +22,11 @@ setPassword(passwordRef.current.value)
         <div className="top">
             <div className="wrapper">
             <img className='logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png'></img>
-            <button className="signinButton">Sign In</button>
+            <button className="signinButton" onClick={(e)=>{
+                e.preventDefault();
+                navigate('/login')
+
+            }}>Sign In</button>
             </div>
         </div>
         <div className="container">
