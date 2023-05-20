@@ -18,16 +18,12 @@
 
 - User Authentication
   - Login
-  - Signup
-- Cart Management
-  - Add/Remove item to Cart
-  - Increase/Decrease quantity of item in Cart
-  - Updating Subtotal
+  - Register
 - Form Validation
-- Reset Password
-- Address Page
-- Payment Page
-- Checkout Page
+- Hover effect on each component
+- Scrolling
+- Home Page
+- Watch Page
  <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Folder Structure -->
