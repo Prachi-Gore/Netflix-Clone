@@ -44,10 +44,10 @@
       - /Watch
       - /Register
       - /Login    
-  - App.scss
-  - App.jsx
-  - index.scss
-  - index.jsx
+   - App.scss
+   - App.jsx
+   - index.scss
+   - index.jsx
 - package-lock.json
 - package.json
 - README.md
