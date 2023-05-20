@@ -31,30 +31,26 @@
 
 ```
 - /public
+   - /Images
+   - index.html
 - /src
-   - /assets
-   - /components
-      - Address
-      - Card
-      - Checkout
-      - Login
-      - Home
-      - Navbar
-      - Checkout
-      - ResetPassword
-      - SendMail
-      - SignUp      
-  - reducer
-  - StateProvider
-  - App.css
+   - /Components
+      - /Featured
+      - /ListItem
+      - /List
+      - /Navbar
+   - /Pages   
+      - /Home
+      - /Watch
+      - /Register
+      - /Login    
+  - App.scss
   - App.jsx
-  - index.css
+  - index.scss
   - index.jsx
 - package-lock.json
 - package.json
 - README.md
-- index.html
-- vite.config.js
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
